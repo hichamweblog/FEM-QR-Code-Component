@@ -1,0 +1,82 @@
+/* CSS Custom Properties */
+:root {
+  /* Color styles */
+  --dark--navy: hsla(218, 43.6%, 21.6%, 1);
+  --grey: hsla(220, 14.5%, 55.5%, 1);
+  --light--grey: hsla(212, 44.8%, 88.6%, 1);
+  --white: hsla(0, 0%, 100%, 1);
+
+  /* Text-size styles */
+  --ff: "Outfit", sans-serif;
+  --fs-heading: 1.375rem;
+  --fs-body: 0.9375rem;
+  --fw-400: 400;
+  --fw-700: 700;
+
+}
+
+/* Reset */
+html {
+  box-sizing: border-box;
+
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles */
+body {
+  background: var(--light--grey, #D5E1EF);
+  padding: 1.7rem;
+  font-family: var(--ff);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: var(--fs-body);
+  min-height: 100vh;
+  overflow: hidden;
+  /* center the card */
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  color: var(--grey, #7D889E);
+  border-radius: 1.25rem;
+  background: var(--white, #FFF);
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  max-width: 20rem;
+  text-align: center;
+}
+
+.card__img {
+  border-radius: 0.625rem;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
+.card__title {
+  color: var(--dark--navy, #2D314D);
+  font-size: var(--fs-heading);
+  font-weight: var(--fw-700);
+  margin-bottom: 1rem;
+
+}
+
+.card__description {
+  letter-spacing: 0.01175rem;
+  padding: 0 1rem 1.5rem 1rem;
+}
