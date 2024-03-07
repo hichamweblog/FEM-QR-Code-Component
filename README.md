@@ -26,8 +26,8 @@ This project is a solution to Frontend Mentor's "QR code component" challenge, d
 
 ### Links
 
-- Solution URL: [FEM-QR-Code-Component](https://www.frontendmentor.io/solutions/qr-code-component-htmlcss-js-3_5-LJ3iDQOz)
-- Live Site URL: [FEM-QR-Code-Component](https://your-live-site-url.com)
+- Solution URL: [FEM-QR-Code-Component](https://www.frontendmentor.io/solutions/responsive-qrcodecomponent-htmlcss-ay6-hSBLSD)
+- Live Site URL: [FEM-QR-Code-Component](https://dz-qr-code-component.netlify.app/)
 
 ### Built with
 
